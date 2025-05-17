@@ -17,6 +17,7 @@ local antiban = Instance.new("TextButton")
 local message = Instance.new("TextBox")
 local start = Instance.new("TextButton")
 local delay = Instance.new("TextBox")
+local ImageLabel = Instance.new("ImageLabel")
 
 --Properties:
 
@@ -191,21 +192,29 @@ delay.TextScaled = true
 delay.TextSize = 14.000
 delay.TextWrapped = true
 
+ImageLabel.Parent = ScreenGui
+ImageLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ImageLabel.BorderSizePixel = 0
+ImageLabel.Position = UDim2.new(0.782507718, 0, 0.648000002, 0)
+ImageLabel.Size = UDim2.new(0, 100, 0, 100)
+ImageLabel.Image = "http://www.roblox.com/asset/?id=87943820440255"
+
 -- Scripts:
 
-local function HOAK_fake_script() -- bitproxyyspanel.LocalScript 
+local function MDWDP_fake_script() -- bitproxyyspanel.LocalScript 
 	local script = Instance.new('LocalScript', bitproxyyspanel)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet('https://pastebin.com/raw/M7s6GACU'))()
 	end)
 end
-coroutine.wrap(HOAK_fake_script)()
-local function LUPVGEH_fake_script() -- spamconsole.LocalScript 
+coroutine.wrap(MDWDP_fake_script)()
+local function TYGFT_fake_script() -- spamconsole.LocalScript 
 	local script = Instance.new('LocalScript', spamconsole)
 
 	script.Parent.MouseButton1Click:Connect(function()
-		local text = "\nPODVAL LEG ON TOP!! | Thubers94 team join today! / group id: 35295702 / yt: @ThubersTeam\nPODVAL LEG ON TOP!! | Thubers94 team join today! / group id: 35295702 / yt: @ThubersTeam\nPODVAL LEG ON TOP!! | Thubers94 team join today! / group id: 35295702 / yt: @ThubersTeam\nPODVAL LEG ON TOP!! | Thubers94 team join today! / group id: 35295702 / yt: @ThubersTeam"
+		local text = "\n PODVAL LEG ON TOP!! | Thubers94 team join today! / group id: 35295702 / yt: @ThubersTeam"
 	
 		local local_player = game:GetService("Players").LocalPlayer
 		local animate = local_player.Character.Animate
@@ -221,20 +230,18 @@ local function LUPVGEH_fake_script() -- spamconsole.LocalScript
 		task.wait()
 		animate.Enabled = false
 		animate.Enabled = true
-	
-	
 	end)
 end
-coroutine.wrap(LUPVGEH_fake_script)()
-local function ECGIPH_fake_script() -- chatspammer.LocalScript 
+coroutine.wrap(TYGFT_fake_script)()
+local function PDVDXE_fake_script() -- chatspammer.LocalScript 
 	local script = Instance.new('LocalScript', chatspammer)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		script.Parent.Parent.Parent.spam.Visible = true
 	end)
 end
-coroutine.wrap(ECGIPH_fake_script)()
-local function BWCBBZS_fake_script() -- lagchat.LocalScript 
+coroutine.wrap(PDVDXE_fake_script)()
+local function ZYOGZ_fake_script() -- lagchat.LocalScript 
 	local script = Instance.new('LocalScript', lagchat)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -248,16 +255,16 @@ local function BWCBBZS_fake_script() -- lagchat.LocalScript
 		end
 	end)
 end
-coroutine.wrap(BWCBBZS_fake_script)()
-local function ZSTLDM_fake_script() -- radiofling.LocalScript 
+coroutine.wrap(ZYOGZ_fake_script)()
+local function JSUXO_fake_script() -- radiofling.LocalScript 
 	local script = Instance.new('LocalScript', radiofling)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://rawscripts.net/raw/LGBTQ+-Hangout-Radio-fling-24294", true))()
 	end)
 end
-coroutine.wrap(ZSTLDM_fake_script)()
-local function GKAPBIY_fake_script() -- Frame.UIDrag 
+coroutine.wrap(JSUXO_fake_script)()
+local function HLBWJQ_fake_script() -- Frame.UIDrag 
 	local script = Instance.new('LocalScript', Frame)
 
 	-- Made by Real_IceyDev (@lceyDex) --
@@ -298,16 +305,16 @@ local function GKAPBIY_fake_script() -- Frame.UIDrag
 		end
 	end)
 end
-coroutine.wrap(GKAPBIY_fake_script)()
-local function KVFCFQ_fake_script() -- antiban.LocalScript 
+coroutine.wrap(HLBWJQ_fake_script)()
+local function MENB_fake_script() -- antiban.LocalScript 
 	local script = Instance.new('LocalScript', antiban)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/AnthonyIsntHere/anthonysrepository/main/scripts/AntiChatLogger.lua", true))()
 	end)
 end
-coroutine.wrap(KVFCFQ_fake_script)()
-local function VSKPW_fake_script() -- start.LocalScript 
+coroutine.wrap(MENB_fake_script)()
+local function KSZDTWL_fake_script() -- start.LocalScript 
 	local script = Instance.new('LocalScript', start)
 
 	local xdxd = false
@@ -333,8 +340,8 @@ local function VSKPW_fake_script() -- start.LocalScript
 		end
 	end)
 end
-coroutine.wrap(VSKPW_fake_script)()
-local function DZXKA_fake_script() -- spam.UIDrag 
+coroutine.wrap(KSZDTWL_fake_script)()
+local function UGTB_fake_script() -- spam.UIDrag 
 	local script = Instance.new('LocalScript', spam)
 
 	-- Made by Real_IceyDev (@lceyDex) --
@@ -375,4 +382,4 @@ local function DZXKA_fake_script() -- spam.UIDrag
 		end
 	end)
 end
-coroutine.wrap(DZXKA_fake_script)()
+coroutine.wrap(UGTB_fake_script)()
